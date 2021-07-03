@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="bground">
+    <button onclick="topFunction()" id="btn" title="Go to top">&#8593;</button>
+      <script type="text/javascript" src="script.js"></script>
+      <button onclick="myFunction()">Dark mode</button>
+
+      <header>
+            <img src="./Images/LGlogo.webp" alt="LGlogo">
+            <h1>Life's Good</h1>
+            <div class="topnav">
+                <a class="active" href="Home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <input type="text" placeholder="Search..">
+            </div>
+      </header>
+
+      <section>
+        <div class="contact">
+        <form>
+              <b>Name:<span style="color:red">* </span></b><input type="text"  name="username" placeholder="Your Full Name" required><br><br>
+              <b>Phone No.<span style="color:red" >* </span></b>
+              <select id="code" name="code">
+                  <option value="+91">+91</option>
+                  <option value="">+82</option>
+                  <option value="">+387</option>
+                  <option value="">+957</option>
+                  <option value="">+657</option>
+                  <option value="">+56</option>
+            </select>
+              <input type="number" name="phno" value="phno" placeholder="Your Phone Number" max="10" required><br><br>
+              <b>Email:<span style="color:red">* </span></b><input type="email" name="email_id" placeholder="Your email" required><br><br>
+              <label for="products"><b>Select Your Product:<span style="color:red">*  </span></b></label>
+              <select id="pdt" name="pdt">
+                  <option value="Refrigerator">Refrigerator</option>
+                  <option value="Air-Conditioner">Air-Conditioner</option>
+                  <option value="Washing Machine">Washing Machine</option>
+                  <option value="Microwave">Microwave</option>
+                  <option value="Led">Led TV</option>
+                  <option value="Lcd">Lcd TV</option>
+            </select><br><br>
+            <b>Message: </b><br><br> <textarea name="name" rows="8" cols="80" placeholder="Enter Your Message Here..."></textarea><br><br>
+              <input type="reset" name="reset" value="Reset">
+              <input type="submit" value="Submit">
+          </form>
+
+          <hr>
+
+          <div id="info">
+            <pre>
+              <p>
+            <b>Media Contacts:</b>
+                    LG Electronics USA
+                    Taryn Brucia
+                    <a href="mailto:Taryn.Brucia@lge.com">Taryn.Brucia@lge.com</a>
+                    201 816 2187
+                    Tripp Potts
+                    <a href="mailto:Taryn.Brucia@lge.com">Tripp.Potts@lg-one.com</a>
+                    502 235 8040 </p>
+            </pre>
+          </div>
+          </div>
+      </section>
+
+
+
+    <footer>
+      <div id="wrap">
+        <a href="mailto:lg@google.com">lg@example.com</a> |
+          <a href="https://www.lg.com" target="_blank">LG.com</a> |
+          <a href="https://twitter.com/LGIndia" target="_blank">Twitter</a> |
+          <a href="https://www.linkedin.com/company/lg-electronics" target="_blank">LinkedIn</a> <br>
+          <p>Copyright &copy 2015-2021. All Rights Reserved</p>
+      </div>
+    </footer>
+</html>
